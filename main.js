@@ -20,7 +20,7 @@ const btnContent = [
   "ฮือออ",
 ];
 yesBtn.addEventListener("click", () => {
-  window.open("/success.html", "_self");
+  window.open("./success.html", "_self");
 });
 noBtn.addEventListener("click", () => {
   const x = getRandomFloat(-70, 70);
